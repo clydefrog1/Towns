@@ -41,6 +41,7 @@ function addTown() {
 	$('#result').text(townName + " added.");
 }
 
+
 function shuffleTowns() {
 	let towns = $('#towns option').toArray();
 	$('#towns').empty();
